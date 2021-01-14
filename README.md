@@ -2,6 +2,30 @@
 
 A simple collection of ruby scripts to collect data from `/actuator/mappings` and visualize all endpoint connections and the API "tree".
 
+### Example
+
+Exemple generatet using example project (PetClinic)[https://github.com/spring-projects/spring-petclinic].
+
+![Alt text](examples/petclinic.png?raw=true "PetClinic example")
+
+Added to `application.properties`
+```
+...
+management.endpoints.enabled-by-default=true
+...
+```
+
+This prijects `properties.conf`
+
+```json
+{
+    "URL_BASE": "http://localhost:8080",
+    "MAPPING_ENDPOINT": "/actuator/mappings",
+    "CLASS_PREFIX": "org.springframework.samples.petclinic",
+    "OUTPUT_FILE_NAME": "diagram.png"
+}
+```
+
 ## Settings
 
 In the folder resources you need create a file called `properties.conf`.
