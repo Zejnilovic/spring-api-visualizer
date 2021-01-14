@@ -4,7 +4,7 @@ A simple collection of ruby scripts to collect data from `/actuator/mappings` an
 
 ### Example
 
-Exemple generatet using example project (PetClinic)[https://github.com/spring-projects/spring-petclinic].
+Exemple generatet using example project [PetClinic](https://github.com/spring-projects/spring-petclinic).
 
 ![Alt text](examples/petclinic.png?raw=true "PetClinic example")
 
