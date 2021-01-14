@@ -15,7 +15,7 @@ management.endpoints.enabled-by-default=true
 ...
 ```
 
-This prijects `properties.conf`
+This projects `properties.conf`
 
 ```json
 {
