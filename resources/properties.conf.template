@@ -1,0 +1,7 @@
+{
+    "URL_BASE": "http://localhost:8080",
+    "MAPPING_ENDPOINT": "/actuator/mappings",
+    "LOGIN_ENDPOINT": "/api/login?username=user&password=changeme",
+    "CLASS_PREFIX": "com.example.mySpringApp",
+    "OUTPUT_FILE_NAME": "diagram.png"
+}
