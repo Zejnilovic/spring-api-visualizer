@@ -31,7 +31,7 @@ GEM
       rexml
     ruby-progressbar (1.11.0)
     unicode-display_width (2.0.0)
-    uri (0.10.1)
+    uri (0.10.3)
 
 PLATFORMS
   ruby
